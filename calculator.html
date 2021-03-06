@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Studiu pe JavaScript</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="calculator,calc,adunare,scadere" />
+	<meta name="description" content="descrierea unui program cu mai multe calcule" />
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+		
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+	<!-- Styles -->
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+	<link rel="icon" type="image/png" href="images/iconTema.png ">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+</head>
+<body>
+	
+	<div id="wrapper">
+		<header id="header">
+			<h1>Applicatii Web JavaScript</h1>
+
+		</header>
+		<section>
+			<nav>
+				<ul class="nav nav-pills flex-column" role="tablist">
+					<input type="checkbox" id="collapse"/> 
+					<label for="collapse">Menu List</label>  
+					<li class="nav-item">
+						<li class="nav-item" ><a  class="nav-link"  href="index.html">Home</a></li>
+						<a class="nav-link"  href="about.html">About project</a></li>
+						
+						<li class="nav-item"><a   class="nav-link" href="vreme.html">Aplicatie Vreme</a></li>
+						<li class="nav-item"><a  class="nav-link"  href="code.html">Code Ascii</a></li>
+						<li class="nav-item"><a  class="nav-link"  href="calculator.html">Calculeaza A+B</a></li>
+						<li class="nav-item"><a  class="nav-link"  href="games.html">Games</a></li>
+						<li class="nav-item"><a  class="nav-link"  href="fqa.html">FQA</a></li>
+						
+					</ul>
+				</nav>
+				<article class="article" id="article">
+										
+						<div id="clacul" >
+
+							<h1>CALCULATOR</h1>
+							<div class="row">
+								<div class="col-sm">
+
+									<span for="nr2">Nr 1</span>
+									<input type="number" class="form-control" id="nr_A" min="0">
+
+								</div>
+								<div class="col-sm">
+									<span for="nr2">Nr 2</span>
+									<input type="number" class="form-control" id="nr_B" min="0">
+								</div>
+							</div>
+							<div class="col-sm">
+								<button type="button" class="btn btn-primary btn-lg btn-block" id="caculate">Calculeaza</button>
+							</div>
+							<div class="row form-group">
+								<div class="col">
+									<h6>Rezultatul <strong id="sumFinal">
+
+
+									</strong></h6>
+								</div>
+
+
+
+							</div>
+
+							<script src="js/sum.js"></script>
+											</article> 
+			</section>
+		</div>
+		<footer class="footer">
+			<p>
+				<div id="ceas2"></div> 
+				<span id="day_month"></span>
+				<script src="js/ceas.js"></script>
+
+			</footer>
+
+
+		</body>
+		</html>
+
