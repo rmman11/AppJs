@@ -65,24 +65,34 @@
 								<div class="col-sm">
 
 									<span for="nr2">Nr 1</span>
-									<input type="number" class="form-control" id="nr_A" min="0">
+									<input type="number" class="form-control" id="num1" min="0">
 
 								</div>
 								<div class="col-sm">
 									<span for="nr2">Nr 2</span>
-									<input type="number" class="form-control" id="nr_B" min="0">
+									<input type="number" class="form-control" id="num2" min="0">
 								</div>
 							</div>
 							<div class="col-sm">
-								<button type="button" class="btn btn-primary btn-lg btn-block" id="caculate">Calculeaza</button>
+								
+                            <button onclick="calculator('1')" class="btn btn-primary">+</button>
+                            <button onclick="calculator('2')" class="btn btn-primary">-</button>
+                            <button onclick="calculator('3')" class="btn btn-primary">*</button>
+                            <button onclick="calculator('4')" class="btn btn-primary">/</button>
+                            <button onclick="calculator('5')" class="btn btn-primary">%</button>
+                            <button onclick="calculator('6')" class="btn btn-primary">Clear</button>
 							</div>
 							<div class="row form-group">
 								<div class="col">
-									<h6>Rezultatul <strong id="sumFinal">
+									<h6>Rezultatul <strong id="result">
 
 
 									</strong></h6>
 								</div>
+
+
+
+							</div>
 
 
 
